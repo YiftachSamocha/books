@@ -1,0 +1,56 @@
+.book-details {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    max-width: 500px;
+    max-height: 1000px;
+
+    .main-content {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1em;
+        border: 1px solid #cac7c7;
+
+        div:first-of-type {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #E6E6E6;
+            width: 100%;
+        }
+
+        h2 {
+            font-weight: lighter;
+        }
+
+        h3 {
+            color: #568C8C;
+            font-weight: lighter;
+        }
+
+        .fill {
+            color: #FEE300;
+        }
+        p{
+            height: 70px;
+        }
+    }
+
+    button {
+        background-color: inherit;
+        border: 0;
+        cursor: pointer;
+
+        i {
+            font-size: 25px;
+        }
+    }
+
+}
